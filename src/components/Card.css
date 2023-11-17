@@ -1,0 +1,59 @@
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  -moz-binding: url("http://seancannon.com/_test/ellipsis.xml#ellipsis");
+  flex: content;
+}
+
+.card {
+  width: 300px;
+  height: max-content;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: left;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.image {
+    width: 280px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.price {
+    color:#1faa59;
+    font-size:1.3rem;
+    font-weight: bold;
+}
+
+.tour-name{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.readmore{
+    color: #12b0e8;
+    cursor: pointer;
+}
+
+.btn-red{
+    margin-top: 18px;
+    padding: 10px 80px;
+    border: 1px solid #b4161b;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #b4161b21;
+}
+
+.btn-red:hover{
+    background-color: red;
+    color: white;
+    transition: all 0.5s;
+}

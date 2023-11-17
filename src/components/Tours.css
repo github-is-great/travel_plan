@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: all 0.5s;
+}
+
+.cards {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.refresh {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.btn-wht {
+    margin-top: 18px;
+    padding: 10px 80px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.btn-wht:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.5s;
+}
+
