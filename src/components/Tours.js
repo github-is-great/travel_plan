@@ -21,6 +21,7 @@ function Tours() {
       <div className="container">
         <div>
           <h2>Travel Plan With Dynamic Developer</h2>
+          <p>Click on Not interested for each tour-card to remove it. When all cards are removed, click on Refresh Button to get all cards back.</p>
         </div>
         <div className="cards">
           {tourArr.map((tour) => (
